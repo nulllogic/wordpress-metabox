@@ -1,6 +1,5 @@
 <?php
 /**
- * An example file demonstrating how to add all controls.
  *
  * @package     WordPress-Metabox-Fields
  * @category    Core
@@ -19,6 +18,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Do not proceed if WordPress Metabox Fields Class does not exist.
-if ( ! class_exists( 'WMF' ) ) {
+if ( class_exists( 'WMF' ) ) {
 	return;
 }
